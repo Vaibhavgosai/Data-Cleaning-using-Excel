@@ -1,0 +1,43 @@
+Data Cleaning Project for Excel
+
+
+Steps taken to clean the 'Raw file US Presidents' excel file.
+
+
+-- We need to check spacing, capitalization, date format, duplicate data, redundant data and much more.
+-- Before cleaning the data, I would recommend to make a duplicate file and work on that duplicate file so we have a copy of original file.
+
+
+
+Step - 1
+- Checking for duplicates
+Solution - Under Data tab, select 'Remove Duplicates'. The duplicate data will be removed automatically.
+
+
+
+Logical Thinking - For efficiency, 
+Created a new column to ensure original column is still available and I can cleaned data on a new column. 
+
+
+
+Step - 2
+
+-Looked at 'party' column, there are various different types of entries. For eg- entries with hyohen, with random dates, blanks etc.
+-To clean 'party' column, added filters to the column names and selected appropriate column name, to clean the data as required. 
+
+
+
+Step -3
+
+- Used Trim function to remove extra spaces in the column 'vice'.
+
+- IMPORTANT STEP 
+Changed the column 'salary' type to 'Number' which was initially set to 'currency'. In order to import this data in SQL, we need to do this step which is extremely important. The '$' sign will be considered as a text in SQL which will further create more issues, so it is advisable to remove the '$' sign by changing the type to 'number'. 
+
+- For the 'date updated' and 'date created' columns, there are 2 rows which have a different format for date. We select the 'short date' cell format type in order to clean the rows.
+
+
+
+Final Step:
+Now, I removed the redundancy by removing the extra columns not required like the 'prior' column and the first column with just numbers and no meaning is defined.
+
