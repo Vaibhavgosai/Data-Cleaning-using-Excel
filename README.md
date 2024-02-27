@@ -11,7 +11,7 @@
 *	Date Created: The date the record was created.
 The dataset contained various inconsistencies such as duplicate entries, inconsistent capitalization, irregular date formats, and redundant data. The following steps outline the process of cleaning the data using Excel functionalities.
 
-### Steps Taken
+## Steps Taken
 ###
 **Step 1: Duplicate File Creation and Initial Inspection**
 ###
