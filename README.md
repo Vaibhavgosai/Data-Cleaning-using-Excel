@@ -12,6 +12,7 @@
 The dataset contained various inconsistencies such as duplicate entries, inconsistent capitalization, irregular date formats, and redundant data. The following steps outline the process of cleaning the data using Excel functionalities.
 
 ### Steps Taken
+###
 **Step 1: Duplicate File Creation and Initial Inspection**
 To ensure the safety of the original data, we first created a duplicate file to perform our cleaning operations. This duplicate file serves as a backup for the original dataset.
 **Step 2: Checking for Duplicates**
