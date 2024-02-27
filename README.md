@@ -1,14 +1,14 @@
 # Overview
 #### In this project, we aimed to clean the 'Raw file US Presidents' Excel dataset obtained from Kaggle. The dataset contains information about the Presidents of the United States, including:
 ###
-•	S.No.: Serial number.
-•	President: Name of the President.
-•	Prior: The primary position or role held before becoming President.
-•	Party: The political party affiliation.
-•	Vice: The Vice President during their presidency.
-•	Salary: The salary received during their presidency.
-•	Date Updated: The last date the information was updated.
-•	Date Created: The date the record was created.
+* S.No.: Serial number.
+* President: Name of the President.
+*	Prior: The primary position or role held before becoming President.
+*	Party: The political party affiliation.
+*	Vice: The Vice President during their presidency.
+*	Salary: The salary received during their presidency.
+*	Date Updated: The last date the information was updated.
+*	Date Created: The date the record was created.
 The dataset contained various inconsistencies such as duplicate entries, inconsistent capitalization, irregular date formats, and redundant data. The following steps outline the process of cleaning the data using Excel functionalities.
 
 ### Steps Taken
